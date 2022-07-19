@@ -18,7 +18,7 @@ def miniMaxSum(arr):
     for i in range(0,len(arr)-1):
         min = min + int(arr[i])
         
-    print( min, max)
+    print(min, max)
 
 arr = [1, 3, 5, 7, 9]
 miniMaxSum(arr)
